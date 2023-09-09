@@ -61,7 +61,7 @@ options:
 
   You need to write the configuration (api) path files into **config.ini** file.
   
-- [Httpx](https://github.com/projectdiscovery/subfinder/tree/main#post-installation-instructions) binary.
+- [Httpx](https://github.com/projectdiscovery/httpx) binary.
 - [Notify](https://github.com/owasp-amass/amass/blob/master/examples/config.ini) binary.
 - Notify api configuration file.
 
