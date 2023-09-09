@@ -100,13 +100,13 @@ If you want to dump all URLs from a given domain you can use:
                         github.com/e1abrador/web.Monitor
 
 example.com:81/
-http://example.com:81/ [200] [3463] [Test 1]
-http://example.com:81/ [200] [39386] [Test 1]
+[2023-09-10 00:58:16.694612] http://example.com:81/ [200] [3463] [Test 1]
+[2023-09-10 00:58:25.382700] http://example.com:81/ [200] [39386] [Test 1]
 
 example.com:82/
-http://example.com:82/ [200] [3463] [Test 2]
-http://example.com:82/ [200] [39386] [Test 2]
-http://example.com:82/ [200] [2666] [Test 2]
+[2023-09-10 00:56:42.354195] http://example.com:82/ [200] [3463] [Test 2]
+[2023-09-10 00:57:27.545999] http://example.com:82/ [200] [39386] [Test 2]
+[2023-09-10 00:57:38.478968] http://example.com:82/ [200] [2666] [Test 2]
 ````
 
 Note that when using the above command, every URL that contains the domain used in ``-D`` flag will be used, in this example the script will show *.example.com.
