@@ -67,6 +67,8 @@ options:
 
 ## Work plan
 
+``IMPORTANT``: I had to change from shelve library to sqlite3 because I had some problems with my VPS. It was generating different database files (I don't really know why, on my local machine was working correctly).
+
 First of all, is needed to add a URL (or URLs) to the database:
 
 ````console
