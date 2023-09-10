@@ -109,6 +109,27 @@ example.com:82/
 [2023-09-10 00:57:38.478968] http://example.com:82/ [200] [2666] [Test 2]
 ````
 
+You can check 1 single URL with ``--url`` flag too:
+
+````console
+python3 web.monitor.py --url http://example.com:81 --show-changes
+
+               _     __  __             _ _
+              | |   |  \/  |           (_) |
+ __      _____| |__ | \  / | ___  _ __  _| |_ ___  _ __
+ \ \ /\ / / _ \ '_ \| |\/| |/ _ \| '_ \| | __/ _ \| '__|
+  \ V  V /  __/ |_) | |  | | (_) | | | | | || (_) | |
+   \_/\_/ \___|_.__/|_|  |_|\___/|_| |_|_|\__\___/|_|
+
+                        github.com/e1abrador/web.Monitor
+
+[2023-09-10 21:51:46.626917] http://example.com:81 [200] [21535] [Test 1]
+[2023-09-10 21:51:53.748105] http://example.com:81 [200] [2666] [Test 2]
+[2023-09-10 21:58:25.827493] http://example.com:81 [200] [35127] [Test 3]
+````
+
+
+
 Note that when using the above command, every URL that contains the domain used in ``-D`` flag will be used, in this example the script will show *.example.com.
 
   ## Thanks
