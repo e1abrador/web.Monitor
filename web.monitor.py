@@ -174,7 +174,7 @@ def main():
                     check_websites()
 
                 print(f"Waiting for {args.hours} hour(s) before the next check...")
-                time.sleep(args.hours * 1)
+                time.sleep(args.hours * 3600)
         else:
             if args.domain:
                 check_websites(roots=[args.domain])
