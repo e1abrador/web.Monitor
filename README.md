@@ -17,7 +17,7 @@
 
 **Flexible Setup:** You can add individual URLs or load a list of URLs from a file.
 
-**Persistent Storage:** It uses the shelve module to store the web data in a database file, allowing persistence across runs.
+**Persistent Storage:** It uses sqlite module to store the web data in a database file, allowing persistence across runs.
 
 **Detailed Logging:** It doesn't just check if the page is up, but also logs the HTTP code, content length, and the page title.
 
